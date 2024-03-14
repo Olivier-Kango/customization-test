@@ -1,39 +1,12 @@
-<a name="readme-top"></a>
-
-<!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
-
-You should modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
-
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
--->
+<a id="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+
+  <img src="https://user-images.githubusercontent.com/108806646/213449106-90ed13d7-c37c-403d-8f1f-0baf224b431f.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3>Notion-like Project</h3>
+  <h3><b>README</b></h3>
 
 </div>
 
@@ -47,8 +20,8 @@ For more information on the importance of a professional README for your reposit
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -58,71 +31,59 @@ For more information on the importance of a professional README for your reposit
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Notion-like Project <a id="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+>  This application is a [Notion-like](https://www.notion.so/Getting-Started-f2457d2c2c21448c9b553a47ab776a0b) editor. It’s not much of an editor, but rather an app that lets you write anywhere and convert your content into H1. 
 
-**[your_project__name]** is a...
+**Notion-like Project** allows the user to take notes, make a to do list and organize the day in order to increase the productivity.
 
-## 🛠 Built With <a name="built-with"></a>
+Please click on the video below 👇 for more explanation 
 
-### Tech Stack <a name="tech-stack"></a>
+## Explanation video
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+[<img width="960" alt="video presentation" src="https://user-images.githubusercontent.com/108806646/213794006-5ca3dd1b-7439-44f6-9c2d-99ae3dd1e6f1.png">](https://www.loom.com/share/e1bc4de70b52462bad6f201f4d518c2b)
+
+## 🛠 Built With <a id="built-with"></a>
+
+### Tech Stack <a id="tech-stack"></a>
+
+> To build this project I used a tech stack detailed below:
 
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.w3schools.com/css/css_intro.asp">SCSS</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a id="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **User can write anywhere**
+- **User can convert the content into H1 by typing '/' + 1**
+- **User can delete the content**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a id="live-demo"></a>
 
-> Add a link to your deployed project.
+> Please click 👇 the link below to open the webpage in your browser
 
-- [Live Demo Link](https://google.com)
+- [Notion-like Project](https://notion-like-project-olivier.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
+## 💻 Getting Started <a id="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
@@ -130,162 +91,117 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- To install [Node.js](https://nodejs.org/en/) on your computer.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+1. Navigate to a folder where you want the cloned file to appear
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+2. Clone this repo in your terminal or git bash using the command
+
+   ```
+     git clone <URL> 'https://github.com/Olivier-Kango/notion_like_project.git' in your terminal
+      
+   ```
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
+run `npm install ` to install all the necessary dependencies including the linters
 
-```sh
-  cd my-project
-  gem install
-```
 --->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
+### `npm start`
+- This will run the react app in your browser 
 
-```sh
-  rails server
-```
---->
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
+### `npm run test`
 --->
 
 ### Deployment
 
-You can deploy this project using:
+To deploy this project I used :
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+- [Netlify](https://notion-like-project-olivier.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a id="authors"></a>
 
-> Mention all of the collaborators of this project.
+> This project was built in under 24-48 hours by :
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Olivier Kango**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@github-olivier](https://github.com/Olivier-Kango)
+- Twitter: [@twitter-olivier](https://twitter.com/olivierkango1)
+- LinkedIn: [@linkedIn-olivier](https://www.linkedin.com/in/olivier-kango-b990601b8/)
+- Angelist: [@angelist-olivier](https://angel.co/u/kango-olivier)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a id="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **I will implement I will implement the possibility of clicking and dragging in order to move the elements.**
+- **I will implement a way to highlight any text, and use the menu that pops up to style your writing however you like.**
+- **I will implement a New Page button (+) at the bottom of your sidebar to add a new page.**
+- **I will add a little triangle button in oder to toggle and see more useful tips!**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a id="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome !!!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Olivier-Kango/notion_like_project/issues/new).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show your support <a id="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+> Give a ⭐ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a id="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank:
 
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+- Theophile Kango my young brother for his financial support to execute this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a id="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./LICENSE.txt) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
