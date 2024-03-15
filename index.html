@@ -16,16 +16,53 @@
   <body>
     <!-- HEADER -->
     <header>
-      <nav class="bg-red-400 flex">
+      <nav class="flex">
         <a href="#" class="top"><img src="./assets/wizardshot.svg" alt=""></a>
         <div class="flex">
           <ul class="flex">
-            <li class="px-4">Home</li>
-            <li class="px-4">Features</li>
-            <li class="px-4">About</li>
-            <li class="px-4">Help Center & Community</li>
+            <li class="md:ml-8 md:my-0 my-7 font-semibold">
+              <a
+                href="#"
+                class="text-gray-400 hover:text-black duration-500"
+              >
+                Home
+              </a>
+            </li>
+            <li class="md:ml-8 md:my-0 my-7 font-semibold">
+              <a
+                href="#"
+                class="text-gray-400 hover:text-black duration-500"
+              >
+                Features
+              </a>
+            </li>
+            <li class="md:ml-8 md:my-0 my-7 font-semibold">
+              <a
+                href="#"
+                class="text-gray-400 hover:text-black duration-500"
+              >
+                About
+              </a>
+            </li>
+            <li class="md:ml-8 md:my-0 my-7 font-semibold">
+              <a
+                href="#"
+                class="text-gray-400 hover:text-black duration-500"
+              >
+                Help Center & Community
+              </a>
+            </li>
           </ul>
-          <div id="login">Login</div>
+          <div id="login" class="text-gray-400 hover:text-black duration-500 md:pl-40 md:ml-40 font-semibold">Login</div>
+          <div className="md:flex-col-reverse md:flex  items-center gap-1 md:my-0 ">
+            <span class="md:flex md:items-center md:mt-0">
+              <img src="/assets/forever.png" alt="" />
+            </span>
+            <button class="w-50 md:btn bg-black flex gap-2 text-white justify-center md:ml-8 font-semibold px-3 py-1 rounded-md text-sm">
+              <img className="flex justify-center " src="assets/chrome.png" alt="" />
+              Install Wizardshots
+            </button>
+          </div>
         </div>
         <div class="container_menu">
           <div class="bar1"></div>
