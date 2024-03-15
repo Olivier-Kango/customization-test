@@ -9,7 +9,7 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styling/output.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <title>Helpjuice Internship Test - Customization</title>
   </head>
@@ -18,12 +18,12 @@
     <header>
       <nav class="header_name">
         <a href="#" class="top"><img src="./assets/wizardshot.svg" alt=""></a>
-        <div class="li-desk">
+        <div class="flex">
           <ul>
-            <li class="nav-item">Home</li>
-            <li class="nav-item">Features</li>
-            <li class="nav-item">About</li>
-            <li class="nav-item">Help Center & Community</li>
+            <li class="px-4 text-white">Home</li>
+            <li class="px-4 text-white">Features</li>
+            <li class="px-4 text-white">About</li>
+            <li class="px-4 text-white">Help Center & Community</li>
           </ul>
           <div id="login">Login</div>
         </div>
@@ -38,7 +38,7 @@
     <!-- MAIN SECTION -->
     <div class="container">
       <section id="welcome">
-        <h1>
+        <h1 class="text-3xl font-bold underline">
           Your Magic Wand for
           <br />
           Instant Documentation
